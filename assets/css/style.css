@@ -40,6 +40,10 @@ button a, button a:hover {
   color: black;
 }
 
+.signup-btn:hover {
+  color: black;
+}
+
 .header {
   background-color: #C0A886;
 }

@@ -13,5 +13,6 @@ if ($page === 'home') {
 } elseif ($page === 'signup-form') {
     require 'controllers/signup-contr.php';
 } else {
-    header("HTTP/1.1 404 Not Found");
+    // header("HTTP/1.1 404 Not Found");
+    require 'controllers/404-contr.php';
 }
