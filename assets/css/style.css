@@ -1,0 +1,90 @@
+@font-face {
+  font-family: runescape;
+  src: url("../../fonts/Runescape_UF.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calc, .content {
+  background: url("/assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  z-index: -999;
+}
+
+button a, button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.logout-btn a {
+  font-size: 24px;
+}
+
+.login-prompt .login-btn {
+  position: relative;
+  right: 0px;
+}
+.login-prompt .signup-btn {
+  left: 0px;
+}
+
+.login-btn {
+  color: white;
+}
+
+.header {
+  background-color: #C0A886;
+}
+.header__container .image-icon {
+  width: 55px;
+}
+
+.info-panel {
+  background-color: #E2DBC8;
+  padding: 12px;
+}
+
+.player-box {
+  background-color: #E2DBC8;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  margin-left: 81px;
+}
+
+.player-info {
+  background-color: #F9F3EB;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.stat-value {
+  width: 43px;
+  height: 43px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 16px;
+  min-width: 72px;
+}
+
+.image-icon {
+  width: 30px;
+}
+
+.stat-row {
+  padding-bottom: 20px;
+}
+
+.imgxd {
+  width: 574px;
+}
+
+/*# sourceMappingURL=style.css.map */

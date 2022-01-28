@@ -1,0 +1,106 @@
+@import 'variables';
+
+@font-face {
+  font-family: runescape;
+  src: url('../../fonts/Runescape_UF.ttf');
+}
+
+
+// reset css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .calc, .content {
+    background: url('/assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    z-index: -999;
+  }
+
+  button {
+    a, a:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .logout-btn {
+    a {
+      font-size: 24px;
+    }
+  }
+
+  .login-prompt {
+    .login-btn {
+      position: relative;
+      right: 0px;
+    }
+    .signup-btn {
+      left: 0px;
+    }
+  }
+
+  .login-btn {
+    color: white;
+  }
+
+
+.header {
+    background-color: $header;
+    &__container {
+      .image-icon {
+        width: 55px;
+      }
+    }
+}
+
+.info-panel {
+  background-color: $background;
+  padding: 12px;
+}
+
+.player-box {
+  background-color: $background;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  margin-left: 81px;
+}
+
+// .player-search {
+
+// }
+
+.player-info {
+  background-color: $button;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.stat-value {
+  width: 43px;
+  height: 43px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 16px;
+  min-width: 72px;
+}
+
+.image-icon {
+  width: 30px;
+}
+
+.stat-row {
+  padding-bottom: 20px;
+}
+
+.imgxd {
+  width: 574px;
+}
