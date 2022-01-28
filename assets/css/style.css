@@ -36,11 +36,19 @@ button a, button a:hover {
   color: white;
 }
 
+.signup-btn {
+  color: black;
+}
+
 .header {
   background-color: #C0A886;
 }
 .header__container .image-icon {
   width: 55px;
+}
+.header__container--text, .header__container--text:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .info-panel {

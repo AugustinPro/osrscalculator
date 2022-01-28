@@ -47,12 +47,20 @@
     color: white;
   }
 
+  .signup-btn {
+    color: black;
+  }
+
 
 .header {
     background-color: $header;
     &__container {
       .image-icon {
         width: 55px;
+      }
+      &--text, &--text:hover {
+        color: black;
+        text-decoration: none;
       }
     }
 }
